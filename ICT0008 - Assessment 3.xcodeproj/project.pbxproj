@@ -19,7 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04B89E452CF8538200B6D4A3 /* ICT0008 - Assessment 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ICT0008 - Assessment 3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B89E682CF867A400B6D4A3 /* ICT0008 - Assessment 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "ICT0008 - Assessment 3"; path = "/Users/phelipped/Documents/AIT/ICT0008/Assessment 3/ICT0008 - Assessment 3/build/Debug/ICT0008 - Assessment 3"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,16 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				04B89E472CF8538200B6D4A3 /* ICT0008 - Assessment 3 */,
-				04B89E462CF8538200B6D4A3 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		04B89E462CF8538200B6D4A3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				04B89E452CF8538200B6D4A3 /* ICT0008 - Assessment 3 */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,7 +70,7 @@
 			packageProductDependencies = (
 			);
 			productName = "ICT0008 - Assessment 3";
-			productReference = 04B89E452CF8538200B6D4A3 /* ICT0008 - Assessment 3 */;
+			productReference = 04B89E682CF867A400B6D4A3 /* ICT0008 - Assessment 3 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -93,6 +84,7 @@
 				TargetAttributes = {
 					04B89E442CF8538200B6D4A3 = {
 						CreatedOnToolsVersion = 16.1;
+						LastSwiftMigration = 1610;
 					};
 				};
 			};
@@ -106,7 +98,7 @@
 			mainGroup = 04B89E3C2CF8538200B6D4A3;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 04B89E462CF8538200B6D4A3 /* Products */;
+			productRefGroup = 04B89E3C2CF8538200B6D4A3;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -244,16 +236,23 @@
 		04B89E4D2CF8538200B6D4A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8DDF2TJ2J;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
 		04B89E4E2CF8538200B6D4A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8DDF2TJ2J;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
