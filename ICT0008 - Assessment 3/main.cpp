@@ -46,11 +46,20 @@ int main(int argc, const char * argv[]) {
         shelf[4].ISBN = 06;
         shelf[4].availability = true;
     
+    //Testing bubble sorting for an array
+    cout << "Test 1: Sorting an array using Bubble Sort" << endl;
     bookSorting(shelf);
+    cout << "________________________" << endl;
     
+    //Showing array sorted using bubble sort
+    cout << "Test 2: Displaying the sorted array (books)" << endl;
     showOrderedBooks(shelf);
+    cout << "________________________" << endl;
     
-    
+    //Test adding new books
+    cout << "Test 3: Adding new book details" << endl;
+    shelf[5].setBookDetails();
+    cout << "________________________" << endl;
     
     
     

@@ -33,10 +33,12 @@ void bookSorting(Book shelf[]) {
 //output sorted array
 void showOrderedBooks(Book shelf[]) {
     for (int i = 0; i < 5; ++i) {
-        cout << shelf[i].title << " " << endl;
-        cout << shelf[i].author << " " << endl;
-        cout << shelf[i].ISBN << " " << endl;
-        cout << shelf[i].availability << " " << endl;
+        cout << "Title: " << shelf[i].title << " " << endl;
+        cout << "Author: " << shelf[i].author << " " << endl;
+        cout << "ISBN: " << shelf[i].ISBN << " " << endl;
+        cout << "Available: " << shelf[i].availability << " " << endl;
+        cout << "________________________" << endl;
+        cout << " " << endl;
         }
 };
 
